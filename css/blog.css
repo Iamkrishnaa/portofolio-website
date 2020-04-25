@@ -1,0 +1,126 @@
+*{
+    box-sizing: border-box;
+}
+.blog{
+    width: 100%;
+    overflow: hidden;
+    padding: 20px;
+    background: #f1f1f1;
+    margin-bottom: 60px;
+}
+.blog-main{
+    display: flex;
+    max-width: 1300px;
+    flex-wrap: wrap;
+    margin: auto;
+}
+@media (max-width: 968px){
+    .blog-main{
+        flex-direction: column;
+    }
+    .cont-img{
+        width: 100% !important;
+        margin: 10px;
+        height: 600px;
+    }
+}
+.main-part{
+    flex: 75%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 10px;
+    margin-top: 20px;
+    background-color: #fff;
+    text-align: justify;
+    border-radius: 20px;
+}
+.cont-img{
+    width: 350px;
+    height: 350px;
+    max-height: 500px;
+    border-radius: 8px;
+    background-image: url(../images/blog.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.cont-text{
+    flex: 1;
+    padding: 20px;
+}
+#more {
+    display: none;
+}
+.btn-more{
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    border: none;
+    border-radius: 5px;
+    background-color: darkorange;
+    color: #fff;
+    font-weight: bold;
+    font-size: 18px;
+    text-transform: capitalize;
+    box-shadow: 0px 5px 5px #2e2e2e;
+}
+.btn-more:hover{
+    cursor: pointer;
+}
+.btn-more:active{
+    transform: translateY(5px);
+}
+.social-icons{
+    float: right;
+    margin-left: 5px;
+    padding: 5px;
+}
+.fa-facebook{
+    background-color: #3b5998;
+}
+.fa-twitter{
+    background-color: #00aced;
+}
+.fa-linkedin{
+    background-color: #0e76a8;
+}
+.fa-facebook, .fa-twitter, .fa-linkedin{
+    color: #fff;
+    padding: 8px;
+    width: 40px;
+    text-align: center;
+    height: 40px;
+    border-radius: 20px;
+    transition: .5s;
+}
+.fa-facebook:hover{
+    transform: translateY(-10px);
+    transition: .5s;
+}
+.fa-twitter:hover{
+    transform: translateY(-10px);
+    transition: .5s;
+}
+.fa-linkedin:hover{
+    transform: translateY(-10px);
+    transition: .5s;
+}
+.blog-header{
+    font-size: 25px;
+    font-weight: bold;
+    font-family: 'audiowide';
+    text-align: left;
+    letter-spacing: 2px;
+}
+.copyright{
+    position: fixed;
+    bottom: 0;
+    
+}
+.h2{
+    font-size: 30px;
+    font-weight: bold;
+    font-family: audiowide;
+    color: #2e2e2e;
+    text-decoration: underline;
+}

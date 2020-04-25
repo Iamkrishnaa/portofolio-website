@@ -1,0 +1,107 @@
+body{
+    overflow-x: hidden;
+}
+.research{
+    padding: 10px;
+    background-image: linear-gradient(grey,black)
+
+}
+.content{
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    max-width: 1600px;
+    border-radius: 20px;
+    transition: .5s;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 15px;
+    background-color: rgba(0,0,0,0.1);
+}
+@media(max-width:850px){
+    .content{
+        transition: .5s;
+        flex-direction: column;
+    }
+}
+.part-left{
+    flex: 1;
+    padding: 10px;
+    text-align: justify;
+    margin: 5px;
+    background-color: #fff;
+    border-radius: 20px;
+}
+.part-right{
+    flex: 1;
+    padding: 10px;
+    text-align: justify;
+    margin: 5px;
+    background-color: #fff;
+    border-radius: 20px;
+}
+.tepart-re{
+    font-size: 22px;
+}
+.impart-re{
+    max-width: 100%;
+    position: relative;
+}
+.impart-re img{
+    width: 100%;
+    border-top-left-radius: 20px;
+    border: 2px outset;
+    border-top-right-radius: 20px;
+    transition: 1s;
+}
+.overlay img{
+    border: none;
+    width: 80%;
+}
+.overlay{
+    transition: 1s;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transform: .5s ease;
+    background-color: rgba(0,0,0,0.6);
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.impart-re:hover .overlay{
+    opacity: 1;
+}
+.impart-re:hover .website-name{
+    transition: 1s ease;
+    opacity: 0;
+}
+.icon{
+    color: aliceblue;
+    font-size: 50px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+.website-name{
+    transition: 1s;
+    width: 97%;
+    height: 50px;
+    text-align: center;
+    position: absolute;
+    background-color: rgba(0,0,0,0.6);
+    padding: 10px;
+    border-radius: 4px;
+    color: aliceblue;
+    left: 50%;
+    transform: translate(-50%);
+    bottom: 5px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
