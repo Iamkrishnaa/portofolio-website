@@ -1,9 +1,9 @@
-# portofolio-website
-### you are free to use any codes but must change the images or any personal details listed in the files.
+# portfolio-website
+### You are free to use any of the code in this project, but must change any images and personal details within.
 ## LIVE DEMO
 ### https://iamkrishnaa.github.io/portofolio-website/
 
-### Please give star to the repo and follow my profile so that other can find it helpful.
+### Please the repo a star and follow me here on Github so that other can find this repository.
 
 # Technologies Used
 
