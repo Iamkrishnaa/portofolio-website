@@ -3,7 +3,7 @@
 ## LIVE DEMO
 ### https://iamkrishnaa.github.io/portofolio-website/
 ### This is portfolio_website by Krishna
-### Please the repo a star and follow me here on Github so that other can find this repository.
+### Please star this repo and follow me here on Github so that other can find this repository.
 
 # Technologies Used
 
