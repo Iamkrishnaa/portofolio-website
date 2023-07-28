@@ -33,10 +33,9 @@
   text-transform: uppercase;
 }
 .navbar a:hover {
-  color: darkorange;
   padding: 10px;
-  color: white;
   font-weight: bold;
+  color: aqua;
 }
 
 .sticky {
